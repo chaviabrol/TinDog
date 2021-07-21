@@ -1,0 +1,154 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15% 6.5%;
+}
+/* Navigation Bar */ 
+.navbar{
+    font-family: 'Lato', sans-serif;
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+/* Download button */
+.Download-button{
+    margin: 5% 3% 5% 0;
+
+}
+/* Iphone-image */
+.img-iphone{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 10%;
+}
+/* Title */
+.row h1{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    size: 3.5rem;
+}
+
+/* media query */
+@media (max-width: 1050px){
+    #title{
+        text-align: center;
+    }
+    .img-iphone{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Features */
+#features{
+    padding: 9% 15%;
+    background-color: white;
+    position: relative;
+    
+    
+}
+
+.feature-box {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.feature-box h3{
+    font-family: 'Merriweather', serif;
+}
+.feature-box p{
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 15%;
+    padding-left: 15%;
+    color: rgb(112, 102, 102);
+}
+.fas1{
+    
+    margin-bottom: 20px;
+    color:#f58b9b ;
+}
+.fas:hover{
+    color:#f86178;
+}
+/* testimonial section*/
+#testimonials{
+    
+    text-align:center;
+    background-color: #f56076 ;
+    color: white;
+
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 2.7rem;
+    line-height: 1.5;
+}
+.testimonial-img{
+    border-radius: 100%;
+    width:10%;
+    margin: 20px;
+}
+/* press section  */
+#press{
+    background-color: #f56076 ;
+    text-align:center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* Pricing */
+#pricing{
+    padding: 100px;
+    text-align:center;
+}
+.pricing-col{
+    padding: 3% 2% ;
+    text-align: center;
+}
+/* Action */
+#cta{
+    background-color:#ff4c68;
+    padding: 7% 20%;
+    text-align: center;
+}
+
+#cta h3{
+    font-family: 'Merriweather', serif;
+    color:white;
+    font-size: 2.8rem;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+/* footer */
+#footer{
+    padding: 5% 5% 2%;
+    text-align:center;
+}
+.fab2{
+    margin: 0px 10px 20px 10px;
+    font-size: 1.2rem;
+}
+.fab2:hover{
+    color:rgb(95, 90, 90);
+}
+#footer p{
+    color:rgb(82, 78, 78);
+}
